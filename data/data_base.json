@@ -1,0 +1,202 @@
+[
+    {
+        "id":  1,
+        "nombre":  "Portátil gaming HP Victus",
+        "categoria":  "portatiles",
+        "descripcion":  "512 GB SSD, Intel Core i7, 16 GB RAM y NVIDIA GeForce RTX 4060",
+        "img":  "/ofertas/hpvictus.jpg",
+        "precio":  1299,
+        "on_oferta":  true,
+        "descuento_porcentaje":  15
+    },
+    {
+        "id":  2,
+        "nombre":  "Portátil ultraligero Lenovo Yoga",
+        "categoria":  "portatiles",
+        "descripcion":  "Pantalla de 14 pulgadas, 512 GB SSD, 16 GB RAM y batería de larga duración",
+        "img":  "/ofertas/lenovoyoga.jpg",
+        "precio":  899,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  3,
+        "nombre":  "PC sobremesa gaming MSI",
+        "categoria":  "ordenadores",
+        "descripcion":  "Intel Core i7, 1 TB SSD, 32 GB RAM y NVIDIA GeForce RTX 4070",
+        "img":  "/ofertas/pcmsi.jpg",
+        "precio":  1899,
+        "on_oferta":  true,
+        "descuento_porcentaje":  10
+    },
+    {
+        "id":  4,
+        "nombre":  "Monitor gaming ASUS TUF 27 pulgadas",
+        "categoria":  "monitores",
+        "descripcion":  "Panel IPS QHD, 165 Hz, 1 ms y compatible con FreeSync",
+        "img":  "/ofertas/monitorasustuf.jpg",
+        "precio":  329,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  5,
+        "nombre":  "Smartphone Samsung Galaxy 5G",
+        "categoria":  "telefonia",
+        "descripcion":  "Pantalla AMOLED de 6,7 pulgadas, 256 GB y cámara principal de 50 MP",
+        "img":  "/ofertas/sga565g.jpg",
+        "precio":  749,
+        "on_oferta":  true,
+        "descuento_porcentaje":  12
+    },
+    {
+        "id":  6,
+        "nombre":  "Tablet Xiaomi Pad de 11 pulgadas",
+        "categoria":  "tablets",
+        "descripcion":  "Pantalla 2K, 128 GB de almacenamiento, 8 GB RAM y Wi-Fi 6",
+        "img":  "/ofertas/xiaomipad11.jpg",
+        "precio":  399,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  7,
+        "nombre":  "Smart TV LG 4K de 55 pulgadas",
+        "categoria":  "televisores",
+        "descripcion":  "Panel LED 4K UHD, HDR, Smart TV y control por voz",
+        "img":  "/ofertas/smarttvlg55.jpg",
+        "precio":  599,
+        "on_oferta":  true,
+        "descuento_porcentaje":  20
+    },
+    {
+        "id":  8,
+        "nombre":  "Auriculares Sony inalámbricos con cancelación de ruido",
+        "categoria":  "audio",
+        "descripcion":  "Bluetooth 5.3, cancelación activa de ruido y hasta 30 horas de autonomía",
+        "img":  "/ofertas/auriculares_soni_cancson.jpg",
+        "precio":  179,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  9,
+        "nombre":  "Altavoz Bluetooth portátil JBL",
+        "categoria":  "audio",
+        "descripcion":  "Sonido estéreo, resistencia al agua IP67 y hasta 18 horas de batería",
+        "img":  "/ofertas/jblaltavoz.jpg",
+        "precio":  99,
+        "on_oferta":  true,
+        "descuento_porcentaje":  15
+    },
+    {
+        "id":  10,
+        "nombre":  "Reloj inteligente Huawei Watch",
+        "categoria":  "wearables",
+        "descripcion":  "Pantalla AMOLED, GPS integrado, medición de actividad y resistencia al agua",
+        "img":  "/ofertas/huaweireloj.jpg",
+        "precio":  249,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  11,
+        "nombre":  "Teclado mecánico gaming Logitech G",
+        "categoria":  "gaming",
+        "descripcion":  "Formato TKL, interruptores mecánicos, iluminación RGB y conexión USB-C",
+        "img":  "/ofertas/TecladoLogitecg.jpg",
+        "precio":  89,
+        "on_oferta":  true,
+        "descuento_porcentaje":  10
+    },
+    {
+        "id":  12,
+        "nombre":  "Ratón inalámbrico gaming Razer",
+        "categoria":  "gaming",
+        "descripcion":  "Sensor óptico de 26.000 DPI, seis botones programables y batería recargable",
+        "img":  "/ofertas/RatoninalambricoRazer.jpg",
+        "precio":  69,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  13,
+        "nombre":  "Disco SSD externo Samsung T7 de 1 TB",
+        "categoria":  "almacenamiento",
+        "descripcion":  "Almacenamiento portátil USB-C con velocidades de lectura de hasta 1.050 MB/s",
+        "img":  "/ofertas/SSDexterno1TB.jpg",
+        "precio":  119,
+        "on_oferta":  true,
+        "descuento_porcentaje":  18
+    },
+    {
+        "id":  14,
+        "nombre":  "Router Wi-Fi 6 TP-Link Archer",
+        "categoria":  "redes",
+        "descripcion":  "Doble banda, cuatro antenas, puertos Gigabit y cobertura para toda la casa",
+        "img":  "/ofertas/Routerwifi6TPLink.jpg",
+        "precio":  129,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  15,
+        "nombre":  "Cámara mirrorless Sony Alpha",
+        "categoria":  "fotografia",
+        "descripcion":  "Sensor APS-C de 24,2 MP, grabación 4K y objetivo intercambiable",
+        "img":  "/ofertas/SonyAlpha7.jpg",
+        "precio":  999,
+        "on_oferta":  true,
+        "descuento_porcentaje":  8
+    },
+    {
+        "id":  16,
+        "nombre":  "Impresora multifunción Wi-Fi Epson EcoTank",
+        "categoria":  "impresoras",
+        "descripcion":  "Impresión, escaneo y copia en color con conexión inalámbrica",
+        "img":  "/ofertas/impresoraepson.jpg",
+        "precio":  159,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  17,
+        "nombre":  "Consola de videojuegos Sony PlayStation",
+        "categoria":  "gaming",
+        "descripcion":  "Consola de nueva generación con mando inalámbrico y almacenamiento de 1 TB",
+        "img":  "/ofertas/PlayStation5Slim.jpg",
+        "precio":  549,
+        "on_oferta":  true,
+        "descuento_porcentaje":  5
+    },
+    {
+        "id":  18,
+        "nombre":  "Webcam Full HD Logitech",
+        "categoria":  "accesorios",
+        "descripcion":  "Vídeo 1080p a 60 fps, micrófonos estéreo y corrección automática de luz",
+        "img":  "/ofertas/webcamlogitec.jpg",
+        "precio":  79,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    },
+    {
+        "id":  19,
+        "nombre":  "Cargador USB-C Anker de 100 W",
+        "categoria":  "accesorios",
+        "descripcion":  "Cargador compacto con tecnología GaN y tres puertos para carga rápida",
+        "img":  "/ofertas/Cargador_USB-C_Anker_100W.jpg",
+        "precio":  59,
+        "on_oferta":  true,
+        "descuento_porcentaje":  20
+    },
+    {
+        "id":  20,
+        "nombre":  "Barra de sonido Samsung Dolby Atmos",
+        "categoria":  "audio",
+        "descripcion":  "Sistema de sonido 3.1.2 canales con subwoofer inalámbrico y HDMI eARC",
+        "img":  "/ofertas/SamsungDolbyAtmos.jpg",
+        "precio":  449,
+        "on_oferta":  false,
+        "descuento_porcentaje":  0
+    }
+]

@@ -7,8 +7,11 @@ import { HeartIcon } from "../public/love";
 import { CartIcon } from "../public/carticon";
 import { StoreSelector } from "./selectorTienda";
 import Categorias from "./categorias";
+import Carrito from "./carrito";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [cartOpen, setCartOpen] = useState(false);
   return (
     <header className="w-full bg-[#DF0000] shadow-md">
       <div className="mx-auto max-w-7xl px-3 py-3 sm:px-6 lg:px-8">
@@ -46,9 +49,9 @@ export default function Navbar() {
               <Link href="/" aria-label="Favoritos" className="rounded-full bg-gray-100 p-2 transition-colors shadow-sm hover:bg-white sm:p-2.5">
                 <HeartIcon size={20} />
               </Link>
-              <Link href="/" aria-label="Carrito" className="rounded-full bg-gray-100 p-2 transition-colors shadow-sm hover:bg-white sm:p-2.5">
+              <button type="button" onClick={() => setCartOpen(true)} aria-label="Carrito" aria-expanded={cartOpen} className="rounded-full bg-gray-100 p-2 transition-colors shadow-sm hover:bg-white sm:p-2.5">
                 <CartIcon size={20} />
-              </Link>
+              </button>
             </div>
           </div>
 
@@ -70,6 +73,7 @@ export default function Navbar() {
         </div>
 
       </div>
+      {cartOpen && <Carrito onClose={() => setCartOpen(false)} />}
     </header>
   );
 }

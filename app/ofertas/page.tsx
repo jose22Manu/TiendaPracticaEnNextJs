@@ -31,7 +31,7 @@ export default function OfertasTecno() {
 
       <hr className="w-full max-w-[890px] border-t border-neutral-700" />
 
-      <section className="grid w-full max-w-7xl grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
+      <section className="grid w-full max-w-7xl grid-cols-1 justify-items-center h-auto gap-10 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
         {productos
           .filter((producto) => producto.on_oferta)
           .map((producto) => (
